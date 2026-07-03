@@ -1,0 +1,419 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Sara Bridal - Premium Luxury Bridal Boutique</title>
+<meta content="Handcrafted bridal blouses and sarees blending traditional artistry with modern luxury." name="description">
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Font Configuration -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&amp;family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Montserrat:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<!-- Tailwind Custom Config -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            heritage: {
+              maroon: '#3D0A11',
+              gold: '#C4A462',
+              cream: '#FDFCF6',
+              red: '#BE1E2D'
+            }
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            marcellus: ['"Marcellus"', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Styles -->
+<style data-purpose="layout-and-decorative">
+    .gold-border-gradient {
+      border-image: linear-gradient(to right, transparent, #C4A462, transparent) 1;
+    }
+    .text-shadow-sm {
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }
+    .parallax-bg {
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+    /* Custom scrollbar for better aesthetic */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #3D0A11; }
+    ::-webkit-scrollbar-thumb { background: #C4A462; }
+  </style>
+</head>
+<body class="bg-heritage-cream text-gray-800 font-sans selection:bg-heritage-gold selection:text-white">
+<!-- BEGIN: MainHeader -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-heritage-gold/20 shadow-sm">
+<nav class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+<!-- Logo -->
+<div class="flex-shrink-0">
+<a class="flex flex-col items-center" href="#">
+<span class="font-serif text-2xl tracking-[0.2em] text-heritage-maroon font-bold">SARA BRIDAL</span>
+<span class="text-[8px] tracking-[0.4em] text-heritage-gold uppercase">Luxury Bridal Boutique</span>
+</a>
+</div>
+<!-- Navigation Links -->
+<div class="hidden md:flex items-center space-x-8 uppercase text-xs font-semibold tracking-widest text-heritage-maroon">
+<a class="hover:text-heritage-gold transition-colors" href="#our-story">Our Story</a>
+<a class="hover:text-heritage-gold transition-colors" href="#collection">Collection</a>
+<a class="hover:text-heritage-gold transition-colors" href="#services">Services</a>
+<a class="hover:text-heritage-gold transition-colors" href="#reviews">Reviews</a>
+<a class="hover:text-heritage-gold transition-colors" href="#contact">Contact</a>
+</div>
+<!-- Call to Action -->
+<div>
+<a class="bg-heritage-red text-white px-6 py-3 rounded-none text-xs font-bold tracking-widest hover:bg-red-700 transition-all uppercase shadow-lg" href="https://wa.me/919941922222" target="_blank">
+          Order on WhatsApp
+        </a>
+</div>
+</nav>
+</header>
+<!-- END: MainHeader -->
+<main class="pt-20">
+<!-- BEGIN: HeroSection -->
+<section class="relative bg-heritage-maroon overflow-hidden py-20 lg:py-32" id="hero" style="background-image: linear-gradient(rgba(61, 10, 17, 0.85), rgba(61, 10, 17, 0.9)), url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCXiq4eDiuILUiTZq_EX56jy4bHAbEf0hYHoZEXgijv2gShlxB3hfBaN-K3yEMwRs4FfbHWgJ8V6ye8jItWzDQB_E_3oK5GKzU30BJ8spgNLUllEtIc_0_k1FHlBeKiUrPqAyPYt4TnROYkoUzd2g61yPFekkq60TSxW3-buUItz_bh2Z-55bEfex56kcd1siw5JqvIc7NV20-jsy72ZO01Slrp8ogMfFi0VGTd9n1pDDxp615FHf0KZQKbeY51beX5-8eZFaglpck_&quot;); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+<!-- Background Texture (Implied in design) -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+<div class="w-full h-full" style="background-image: radial-gradient(#C4A462 1px, transparent 1px); background-size: 40px 40px;"></div>
+</div>
+<div class="max-w-7xl mx-auto px-4 relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+<div class="text-white space-y-8">
+<p class="text-heritage-gold font-marcellus tracking-[0.3em] text-sm uppercase">Premium Luxury Bridal Boutique</p>
+<h1 class="text-5xl lg:text-7xl font-serif leading-tight italic">
+            Threads of <br>
+<span class="text-heritage-gold">Elegance,</span> <br>
+            Stitched with <br>
+            Heart ❤️
+          </h1>
+<p class="text-gray-300 max-w-lg leading-relaxed text-sm">
+            Specializing in high-quality, handcrafted bridal blouses and sarees blending traditional artistry, intricate mirror work, and antique gold detailing for the modern bride.
+          </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-heritage-gold text-heritage-maroon font-bold px-8 py-4 text-xs uppercase tracking-widest hover:bg-white transition-all">Book an Appointment</button>
+<button class="border border-white/50 text-white font-bold px-8 py-4 text-xs uppercase tracking-widest hover:bg-white/10 transition-all">Online Collection</button>
+</div>
+</div>
+<!-- Image Collage -->
+<div class="relative grid grid-cols-2 gap-4">
+<div class="space-y-4 pt-12">
+<img alt="Indian bride wearing a luxurious, intricately handcrafted Aari work blouse and a rich silk saree" class="w-full h-80 object-cover border-4 border-heritage-gold/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7FkwzL1N0wuCBg7IvbIzBMYw0qh1TJ8MRwa4GADX7iFYQL0-5ln4TeGSBSBSyv8FfF69p4AWajqGzPqmHsmM0UPTrcBZUBHhJliAcrpLkNA79zcQBWSASYPjWWDradLTKfi8PfoLA6-zUm3vGuWYC15nsgl-Rb9fGFGqHjQGAWuDbcqZaBlRbc5AkqtDkjMiHsONAFRolMbUePKDEzmd9_ybbFhhz21Km79CLJizXVoDGtH-M1Ma7VF7CnhZqwCF8Jx79S7-S8UBi">
+</div>
+<div class="space-y-4">
+<img alt="Blouse Detail" class="w-full h-64 object-cover border-4 border-heritage-gold/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcLrwx-8DQRvA5eQ9F_OwYxggFf600xIBEhmKFv29e7d1A-6zBAE6nBoshVcivRmXGkOGpG6Jfis3yJb69uSfAF0Ka_Q4yqIUoXlAzpBrqbDgSz7l-lsALbKj9nThaFt6oHZ_Tk8wFSFzS2IB9xMVT4q0jUq7ZhUiJEYFnEUzRbeIqe28rqTatNlm2mgMnqlcNApI7a9zUC-V_Xa9R9FW27uJrCrshOMCmqAQRU62YNlLtGsAVqtYjGiUps8AxQKDQFULsV4pywc5-">
+<img alt="Model Showcase" class="w-full h-96 object-cover border-4 border-heritage-gold/30" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzo1x6af6rrqiXYCdNC89-Ry7OOWWKAa458HaoJ0ORLzeFxpBoS11eYit0UpIt8QDm9qwrfOcPVAla2qLsoEFSVyEOMQv1N4RyuydYLxEtXgtqsaqNRrPfG-t8nP1iq29fs5wKR1AMOU9NY0g0BeCUAbo1-Ldg1ExmtDNZikG4GqqBYfRa8B9yDDgyLfe-cMO0pA8jwqHgMB2JyHMqM6YJNqHh70AyRKCJni23uElCTN0F9YhGNyNgtr_lguTlESTqKELgFFuatqca">
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: OurStory -->
+<section class="bg-[#2D070C] py-24 relative overflow-hidden" id="our-story">
+<!-- Ornate Gold Pattern Background -->
+<div class="absolute right-0 bottom-0 opacity-20 w-1/3">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M44.7,-76.4C58.2,-69.2,70.1,-58.5,77.4,-45.4C84.7,-32.3,87.4,-16.1,85.6,-0.9C83.9,14.3,77.7,28.5,69.5,41.4C61.3,54.2,51,65.6,38.3,73.1C25.6,80.6,10.5,84.1,-4.2,91.3C-18.9,98.6,-33.2,109.5,-45.1,105.7C-57,101.9,-66.6,83.4,-74.6,67.6C-82.6,51.8,-89.1,38.8,-92.4,25.2C-95.7,11.5,-95.9,-2.8,-91.6,-15.8C-87.3,-28.9,-78.5,-40.7,-68.1,-50.2C-57.8,-59.7,-45.8,-66.9,-33.9,-75.2C-22.1,-83.4,-10.4,-92.7,2.1,-96.4C14.7,-100.1,29.3,-98.3,44.7,-76.4Z" fill="#C4A462" transform="translate(100 100)"></path>
+</svg>
+</div>
+<div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1">
+<img alt="Our Story Image" class="w-full shadow-2xl border-2 border-heritage-gold/20 p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCI5VDkrQiTiY8qXZDeRNkpguv-Sg5IzxXsjtetAMli0hyHKTrl7E8Lnc8_WQkcEW_KLOs6iXRKuF2mCBjvYkrJ9NVKbZ8bbr7-EOoWa9ojQax8R502JAjqh4UAjK6J2eGYOpUHyE3Vn6czLLyWENVfRA1khYiBVDfgb50jyip2PN4rWWub1NKkvkoy7jl2R0BlPS-Q1y6LHzOsBgjzRwBWZAWALhaFiRtLIEz7N-qptXuSPb-owC-MyclC2h6RPBx2Q2Jw96KVNyKr">
+</div>
+<div class="text-white order-1 lg:order-2 space-y-6">
+<p class="text-heritage-gold uppercase tracking-[0.3em] text-xs">Our Story</p>
+<h2 class="text-4xl font-serif italic">Threads of Elegance, <br> Stitched with Heart ❤️</h2>
+<div class="space-y-4 text-sm text-gray-300 leading-relaxed">
+<p class="">At <span class="text-heritage-gold font-semibold italic uppercase">SARA BRIDAL</span>, every stitch tells a story of passion, tradition, and timeless elegance.</p>
+<p class="">We specialize in <strong class="text-heritage-gold">handcrafted aari work blouses</strong> that celebrate the beauty of Indian craftsmanship. Each design is carefully created with intricate embroidery, attention to detail, and a deep love for the art of Aari work.</p>
+<p class="">From <strong class="text-heritage-gold">bridal masterpieces</strong> to academic designer creations, we bring your vision to life with precision and passion. Every bridal outfit is uniquely crafted to reflect your personality, style, and special moments.</p>
+<p class="">Our mission is to preserve the rich heritage of Aari embroidery while creating modern, luxurious designs that make every woman feel confident and beautiful.</p>
+</div>
+<div class="pt-6 border-t border-heritage-gold/20">
+<p class="italic text-heritage-gold">"At Sara Bridal, we don't just stitch blouses, we create memories that last a lifetime."</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: OurStory -->
+<!-- BEGIN: PrivateLibraryCollection -->
+<section class="py-24 bg-white" id="collection">
+<div class="text-center mb-16 space-y-4">
+<p class="text-heritage-red uppercase tracking-[0.3em] text-xs font-bold">Private Library</p>
+<h2 class="text-5xl font-serif text-heritage-maroon">Collection</h2>
+<div class="w-24 h-1 bg-heritage-gold mx-auto"></div>
+<p class="text-gray-500 italic max-w-xl mx-auto">Discover our selective curated collection of luxurious handcrafted attire.</p>
+</div>
+<div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+<!-- Collection Card Template (Repeated for items) -->
+<div class="group" data-purpose="collection-card">
+<div class="overflow-hidden mb-6 bg-gray-100">
+<img alt="Candy Blouse" class="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkxAINf-HtynIlQk_882KlpoZnlKPbx6hMfLdcD7duk3kh9LLBWvR_6BL6cQNyJlkztm1S2yyNOWmpMhXsGm7VVmBS9BxuFpNoqejrrWwhc_ip_z5jww5kMvnjm_VmxzEKuzks0XULUI3wGupVcq1RHfZURr9m2E9Zh9GPftNcFss336AqHk4RMdtEIOFo0iMjeLjicQYd4hXFqekEa71zecgpzMJCMGiKR5q9_oBJpzrxGLWorCCyEzWUJb3438SrKjaeUgZYJUcV">
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Candy Blouse</h3>
+<p class="text-sm text-gray-500 leading-relaxed">Candy like beads spread all over the sleeves are finished with beaded embroidery. The elbow-length off-the-shoulder blouse with hand-set all over beads.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group" data-purpose="collection-card">
+<div class="overflow-hidden mb-6 bg-gray-100">
+<img alt="Peacock Feather Blouse" class="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCtldlhmJpGEhpUzqcpuvzltlNPnakSCV1evWUu77ANC9Nz48_IPkoqwz34j6h_zw7FbwszAyn7GtuZJkc2xOO3KgxR1yDq2YlJBK7XHok5fe4RPr-e2PK-JEe5w-kL7RTzrveqRCBwI6UsH_9ipgP3a8u5wBb8gv2vBstUDodOyvorwQiKdegwXb_GCwafqg6soD6Jd3-u8L6CkHKOd4WwmIXIalKJ2gLPJKpYvhM-WnPTN3qufEmN3RMGWylZBfq69ggmkC54EHs">
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Peacock Feather Blouse</h3>
+<p class="text-sm text-gray-500 leading-relaxed">A hand embroidered blouse representing the magnificence of a peacock. Featuring all-over sleeve with gold/beaded feathers thread embroidery.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group" data-purpose="collection-card">
+<div class="overflow-hidden mb-6 bg-gray-100">
+<img alt="Plum Gold Creeper" class="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDv5e0DWAwW1fhMRcJcUSQ0zZ28IGGiv6pngQYltGYuzpqMGpxoJEwt1MR0Pls1F5hs_1siszLv2_Sm1KX2q_1DP0NbkBWILeE7RtNxE9eIuHTnIladpKN0Pu9LwbR056Ibj1XMVyP_NVGGGAwpTiCj-iM4Bf8XHcfwpLwZ-xMEknZTvdGmyMSdrQshqEcfpDLMJUFBKhWiyx4q9Vo96JEoZstaL5ZzMbRTSuT2tNsOrobNp9CESiktqv6VqEf8YVOzIR6eOwoU1nu2">
+</div>
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Plum Gold Creeper</h3>
+<p class="text-sm text-gray-500 leading-relaxed">Symbolizing grace and guidance, this plum blouse is completely hand embroidered with silver bright curvy thin beads and finished with a leather design.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+<!-- More Cards (Simulated based on design) -->
+<div class="group" data-purpose="collection-card">
+<img alt="Green Maroon Bijoy Saree" class="w-full aspect-[4/5] object-cover mb-6 group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBF5Rd7MkPC0GwKJ42Nh0IS2HJST1mK6X30HlBvJiUhHUkdgpyTlreRFZ1nEP1XO2hRbmHqla_KOcmjyoxtC-TnPF3nmZaqri2RNmButNxuq74kbpVVCpqMLbk9ec1cSu25gNrCJS_VSz-_IGOcODjT4-RWVatDfaE3B8e2XdOAHa-vZvYd95JfLg6Oe83CWBhBGZbrE5mmQJehdRWVZ9wISO_nv4iB6R2q9NLUh4rJFVNHlgYtaK_7kToMoYf-yq0GtEL_JMZGylrO">
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Green Maroon Bijoy Saree</h3>
+<p class="text-sm text-gray-500 leading-relaxed">A rich green saree features handmade aari embroidery gold motifs along the hair technique across the body. Panels with purple-gold lining.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+<div class="group" data-purpose="collection-card">
+<img alt="Majestic Sapphire Sparkle" class="w-full aspect-[4/5] object-cover mb-6 group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkE4996zv_vlXG678vYo3eVQP1mKZjs57wSu3m3HK9DVEIWyxCgVPHuoKeN5HvUJvx-yY6FZhN-dJrphom6WKOqNEU69Zi-n9oTI64ZCL0doTIpxzXIAjE6mUIieqVA7giMjSHsy6pG3zpCR2kd4NrJGhNc_dxtKodzByENUV7Nsda-wWqsdXRcuY9jwaTw2ah9AiUYbRD5-HS0xArBlAoLIQ4WzLcA20iYdjfrdrBBykjIg1sVpZW5ZAmY3663AYMwZm4wxmry11J">
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Majestic Sapphire Sparkle</h3>
+<p class="text-sm text-gray-500 leading-relaxed">A Royal Blue velvet saree features all-over gold/silver rich intricate detailing in the bodice and small motifs on the body, hand-embroidery on the sleeve border.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+<div class="group" data-purpose="collection-card">
+<img alt="Ivory Floral Sparkle" class="w-full aspect-[4/5] object-cover mb-6 group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpwRcwmKlsN2lIY0abWVHiAEmfFeBjUNWH6EobJyGgsC_r4Fb2Cnzx_bOcgwTxTw5Kg9qGKz8uOUdw4Z8G1CvjyKrbuhEu0tJrmhJSD8cNpZTym4uoBPHNTk1NH6p0RnJyWKJEXTiEklQrzNcvZFBcFyFyrbgypwgGqm4C6w7ugZiwFvEXZUahcrVS8ZTSIv_-a8LP-d5_NMlH2Vir2wWQ1sCVSpxLg-GfqaGXjzXV3WU2lV7ZUpTFUwTfuWemf6GoBHxj053gRFRz">
+<div class="space-y-3">
+<h3 class="text-xl font-serif text-heritage-maroon font-bold italic">Ivory Floral Sparkle</h3>
+<p class="text-sm text-gray-500 leading-relaxed">A Floral Embroidered blouse on soft ivory cotton with intricate detailing. Hand-embroidered on gold zari cotton layers with a pre-washed gold silk lining.</p>
+<a class="inline-block text-heritage-red text-xs font-bold tracking-widest uppercase border-b border-transparent hover:border-heritage-red transition-all" href="#">View Details →</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: PrivateLibraryCollection -->
+<!-- BEGIN: ElegantAariWork -->
+<section class="py-24 bg-[#FDFCF6] border-t border-heritage-gold/10">
+<div class="text-center mb-16 space-y-4">
+<p class="text-heritage-red uppercase tracking-[0.3em] text-xs font-bold">Special Offers</p>
+<h2 class="text-4xl lg:text-5xl font-serif text-heritage-maroon italic">Elegant Aari Work Blouses</h2>
+<div class="w-24 h-1 bg-heritage-gold mx-auto"></div>
+<p class="text-gray-500 text-sm italic">Discover our exclusive collection of Elegant Aari work designs with special pricing.</p>
+</div>
+<div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Special Item 1 -->
+<div class="bg-white p-4 shadow-md group">
+<div class="overflow-hidden mb-4">
+<img alt="Maroon Bird" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4tP6KevO9zcnPUHCvs1jFXYpOdWBHT1oeahKoWPKWzCz6UgrXZVhuiLOrdPl3-awapfH_iUcmCj_yl_yRGlfP8uw_Pi-oJgyh7S6CaptlU-iq35Xrgwmg-1OHQ6X4fcnK7p7Ax4ej9UFazKRCVg1ZcSuar_0zSOge7ZVCWq2AExZzEbAOjDy6bQsJQXH1LanP8wiLuC6GkcLbsQAGap_I4Jk986ANSM7eOHx8IeakduX4DWgbzAWlXJCcYsFBF11zy3q2b-ILqXKQ">
+</div>
+<div class="space-y-2">
+<h3 class="text-lg font-serif font-bold text-heritage-maroon">Maroon Bird Velvet Blouse</h3>
+<p class="text-xs text-gray-500">A handcrafted maroon velvet blouse featuring intricate embroidery.</p>
+<p class="text-heritage-red font-bold font-sans">₹ 4,500</p>
+<a class="block text-heritage-red text-[10px] font-black uppercase tracking-widest group-hover:underline" href="#">View Details →</a>
+</div>
+</div>
+<!-- Special Item 2 -->
+<div class="bg-white p-4 shadow-md group">
+<div class="overflow-hidden mb-4">
+<img alt="Navy Blue" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0w5mpCTlozJuzZbT8yo9V9NPcvJuvBeTqCabXLnV5GtMZ0AAzzWEh6-nP6hTp7fWyvbpSP-IGC-PeNqCOlczkcGmlSBDA7cY_6RXU6TZtWkQ1OcdEUB2IupuprCUUueh8LJZo5gXEQPc6MF-o2X_XgSGAmViToVd7qG_LUwYwD8ntH5FrZrvyqr5y516_u638CQsfi9c0y0tNLBbGfSENY67icesOfMooKoqYEnqm1DPAIUg5Y4_ClYzci1p1B8ClDE7UdY-wKVfs">
+</div>
+<div class="space-y-2">
+<h3 class="text-lg font-serif font-bold text-heritage-maroon">Navy Blue Beaded Blouse</h3>
+<p class="text-xs text-gray-500">A stylish navy blue velvet blouse featuring intricate embroidery.</p>
+<p class="text-heritage-red font-bold font-sans">₹ 6,100</p>
+<a class="block text-heritage-red text-[10px] font-black uppercase tracking-widest group-hover:underline" href="#">View Details →</a>
+</div>
+</div>
+<!-- Special Item 3 -->
+<div class="bg-white p-4 shadow-md group">
+<div class="overflow-hidden mb-4">
+<img alt="Green Creeper" class="w-full aspect-[4/5] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjEPM0J35USw7ITQOy270Qtb-glgyYArOkFRyDqws_W-o2mwCOE9RZ8ipBmwXf3qxMKsy-uv6IDuL3DjvQr4mi3ArB1r9rz5q7Z6WQHwgyhQnyWb2qTJZF2XXhntmnSq4b8dx4V_kw7_y9RScFiR6uJjOzesGCngsgxDJgWst8Awxz6lolddPkALOPownZNZD2INDmnl9Pz5unSC5tPiKbkJBt47H1-RyC0_ncH3FeVP8JA0MYzwZUC6h2nJXTvMnKdz2Nhf5fBuh7">
+</div>
+<div class="space-y-2">
+<h3 class="text-lg font-serif font-bold text-heritage-maroon">Forest Red Creeper Blouse</h3>
+<p class="text-xs text-gray-500">Elbow length blouse in forest silk fabric with embroidered with beads and zarosi.</p>
+<p class="text-heritage-red font-bold font-sans">₹ 6,400</p>
+<a class="block text-heritage-red text-[10px] font-black uppercase tracking-widest group-hover:underline" href="#">View Details →</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ElegantAariWork -->
+<!-- BEGIN: MissionStatement -->
+<section class="relative h-[600px] flex items-center justify-center parallax-bg" style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuBjtBUDv5MQbu0SGHQgbtzlFC60olvrxPtcYRiSLXHYo35F15BsJa3PA2773DkfO-1hynwYK1JANJ5rUHPF3N3Pkgpw0rUiIhJCfa_okBBVRGrteNd_nQjPD4YgSDtAm0vYcdGXOAOp-03Fn6i2TtU7VDlaJayRNKLKER-WavhhG4pHbMG9xxX-ZlhOpyecUZOB2V9seBmVFn6zQtZdW3Hea73YVGxq_j9k9Qxq1JEGNc9jVsHnQQMX_UCX7TwsCBSXHbALZJ9rUHYc&quot;);">
+<div class="absolute inset-0 bg-heritage-maroon/40 backdrop-blur-[2px]"></div>
+<div class="relative z-10 bg-white/95 p-12 max-w-2xl text-center shadow-2xl border border-heritage-gold/30">
+<h2 class="text-4xl font-serif text-heritage-maroon mb-4 italic">Mission Driven Craftsmanship</h2>
+<p class="text-gray-600 mb-8 leading-relaxed">
+          Every thread tells a story of passion and dedication, ensuring your special moments are graced with unparalleled perfection.
+        </p>
+<div class="flex justify-center gap-6 mb-8 opacity-40">
+<img alt="Icon" class="w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACiX-mdsr7n_9eJKSxlTLahgry907SaKavXzWSOTGBrBt7SaVkmqozc0wEkE-qPNv0jd_P1su5IO1iq9NZXach1G5csO4nfR0eA1GHNPsu3uNMC96Y94wydCpB9HM073LpK1WEstvlzAkwk2OsH7ay6-Klh-ielkr7yFdzDg0_tJxxH0K7f0OwbPAkRVDpURkqHuyIEAIyz6_cOum9808UWTx8yhcdnzSgB1FzuS41EpsJJAIXH9kXE1OypWuv3ril16lw8WiIQPJE">
+<img alt="Icon" class="w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-umyVy8jSY0wopyRtnVYo4Jfp-gu4X-r4wlu8PQu7eNc_7v0JbxIqUs2DnsOxY4t1WM8ewsxMDHZdKQ0UQl6BFJDK6RdERuD73CkKMXs3UqQUcJS38ASYiAc2KDyP1ROMvXFcircXqLwqV-pqSS8cAHbAfDq93SEJoCh1ORbZYJzZ1ama2Pdc-GkegHxzpEbUaBQ6a1UlGkFa_5MUe1UUj3DjmxrEVJyqyubbKk320U25xPTFJSRcUU7RGZFwWKuGwErbSfEv7WOj">
+<img alt="Icon" class="w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXofBqV6Ag9QU83ZNtelV5w6qxQwtaXI4ljF6bn058vXHoNO54F6V2KEBMHASM0YIdX1Dtu3rGwpRxQw4yz4TLpoD1WdGUOerUyZoiT3jv3ZhtrGrVDlfVp1f_HDXZ2q2LDVZi1L77cPEVrI1P4iEoRgD_DpdrIqaJv4CeYM2-qHFV7OEen6_Fp5hm528FJY7bdKQzxhZW0-TI6lfEaB_TVdgc1ck1mT2wVKZbXL2Pgw-LTQPY4ug4Wn9u20-KYVaqCcdCKYKHoTyF">
+</div>
+<button class="bg-heritage-red text-white px-10 py-4 text-xs font-bold uppercase tracking-widest hover:bg-heritage-maroon transition-colors">Shop Online</button>
+</div>
+</section>
+<!-- END: MissionStatement -->
+<!-- BEGIN: ServicesSection -->
+<section class="py-24 bg-black text-white" id="services">
+<div class="text-center mb-16 space-y-4">
+<p class="text-heritage-gold uppercase tracking-[0.3em] text-xs">Morning After Ace</p>
+<h2 class="text-5xl font-serif italic">Services</h2>
+<div class="w-24 h-1 bg-heritage-gold mx-auto"></div>
+</div>
+<div class="max-w-7xl mx-auto px-4 space-y-24">
+<!-- Service Card 1 -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="lg:w-1/2 overflow-hidden border border-heritage-gold/20">
+<img alt="Custom Bridal Designing" class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZnXexr9V5okZr-Nox_kW-xjLl2ZvuqFMYhbMcY7RSEvP4JF6wJmoS5OHc0p-nYwgU2Qln4e5vDIxyLARUZTLWrjUV7GpyIgYrOhaahOr8Xta0qqlK79QTCEiNUJeC3oJi8vtM4rjqLc6Ga0CP0IYz_dsPqAOfp1mfJtitMfLwkjaGNtn1HgWCltYffW_7kjn2PcbMLhv2xXehP-3r715S6N5gSyYZLFQd_GN6Ods_FC4ELVFQXKDiX2MSdeXhEGQLde2m_KviR7I-">
+</div>
+<div class="lg:w-1/2 space-y-6">
+<h3 class="text-3xl font-serif italic text-heritage-gold">Custom Bridal Blouse Designing</h3>
+<p class="text-gray-400 leading-relaxed">Bespoke tailoring and design services for heavy bridal blouses, allowing for personalized craftsmanship and fit. We translate your dreams into detailed silk canvases.</p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12 group">
+<div class="lg:w-1/2 overflow-hidden border border-heritage-gold/20">
+<img alt="Hand Embroidery" class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfYymwpS8K-a9OW7a3eSrxXinPtoGofPGqj8XcVF7-uiXEMPpqagCLTcIipKg6qj4EBZXlxTsjEjwYFGLg7IEQ4MRtOsNOw5ZOZPjV-jm1dPKzFjJ9Ek7z-_K6eTSsDedYWxwuWJZu1xQAc7y1HoOca3AqaTZxIOAJGPleTstcPORSwdxBbKPBe9KxFq_Ujilu6Jk4199kSbVBpxpveEN2n3cKF82yy_FsJYSr3wmaQwbNMTDPEFNScy4CpFtJU5dp5pYcJ_I9MDVk">
+</div>
+<div class="lg:w-1/2 space-y-6 text-right">
+<h3 class="text-3xl font-serif italic text-heritage-gold">Hand Embroidery</h3>
+<p class="text-gray-400 leading-relaxed">Expert artisan services for crafting exquisite hand-embroidered details on bridal blouses and sarees. Specializing in Aari, Zardosi, and Thread work.</p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="lg:w-1/2 overflow-hidden border border-heritage-gold/20">
+<img alt="Garment Alterations" class="w-full aspect-video object-cover group-hover:scale-110 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1KrD62M1RCIzxJav8XGMiXYryDEpe-GW1thLidQdUYNeYTUWNqMCg0UZIorihF9w77UP5shFBsDJpILY5bs1ImFANErjOiv3ody6-jM9kBafsQ4HhX_OBXCk-EPcf_S1lKjKWyBDcF8jDVHATPC8fQx4m625Fhx2ClOE9X5np8S0yCN10AbDSceE6kqrZyodvvoiIGIPcPaBzKxB6nRHJV1sMKIb-8x7pRQbiw0rcVhm-IJb77p-ugimKkMH_8PRvpCadfZo1LUHs">
+</div>
+<div class="lg:w-1/2 space-y-6">
+<h3 class="text-3xl font-serif italic text-heritage-gold">Garment Alterations</h3>
+<p class="text-gray-400 leading-relaxed">Professional alteration services to ensure that attire near and blouses fit perfectly for the customer, ensuring comfort on your big day.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ServicesSection -->
+<!-- BEGIN: CustomerReviews -->
+<section class="py-24 bg-gray-50" id="reviews">
+<div class="text-center mb-16 space-y-4">
+<p class="text-heritage-gold uppercase tracking-[0.3em] text-xs font-bold">Testimonials</p>
+<h2 class="text-4xl lg:text-5xl font-serif text-heritage-maroon">Customer Reviews</h2>
+<p class="text-gray-500 italic text-sm">Hear from our brides about their experience with our handcrafted elegance.</p>
+</div>
+<div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review Card 1 -->
+<div class="bg-white p-10 shadow-lg border-t-4 border-heritage-gold flex flex-col items-center text-center">
+<div class="flex text-heritage-gold mb-6">
+            ★★★★★
+          </div>
+<p class="text-gray-600 italic mb-8 leading-relaxed">
+            "The Aari work on my bridal blouse was absolutely breathtaking. The attention to detail and perfection in every stitch made my special day even more memorable."
+          </p>
+<p class="font-bold text-heritage-maroon text-xs tracking-widest uppercase">- PRIYA S.</p>
+</div>
+<!-- Review Card 2 -->
+<div class="bg-white p-10 shadow-lg border-t-4 border-heritage-gold flex flex-col items-center text-center">
+<div class="flex text-heritage-gold mb-6">
+            ★★★★★
+          </div>
+<p class="text-gray-600 italic mb-8 leading-relaxed">
+            "I ordered a custom blouse and the craftsmanship exceeded my expectations. The fit was perfect and the intricate embroidery was simply luxurious."
+          </p>
+<p class="font-bold text-heritage-maroon text-xs tracking-widest uppercase">- ANJALI M.</p>
+</div>
+<!-- Review Card 3 -->
+<div class="bg-white p-10 shadow-lg border-t-4 border-heritage-gold flex flex-col items-center text-center">
+<div class="flex text-heritage-gold mb-6">
+            ★★★★★
+          </div>
+<p class="text-gray-600 italic mb-8 leading-relaxed">
+            "Timely delivery and exceptional quality! The beadwork on the sleeves was completely handcrafted and with so much passion. Highly recommend SARA BRIDAL."
+          </p>
+<p class="font-bold text-heritage-maroon text-xs tracking-widest uppercase">- NEHA K.</p>
+</div>
+</div>
+</section>
+<!-- END: CustomerReviews -->
+<!-- BEGIN: ShippingSection -->
+<section class="relative bg-black py-24 overflow-hidden">
+<!-- Peacock Motif Background (Approximate based on image) -->
+<div class="absolute left-0 bottom-0 w-1/3 opacity-30">
+<img alt="Peacock Decor" class="w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCznN8hBOG_6c3_CVBV_B8S0LUwNDd6OgDwyFAKDup6V_QBF1PIqI24mXJ-X4tizKrowTKuXO7Zre6oCMDloS5guHqcGnbivChV_Y9RbOfLLiys_GXilRsmks3Z66CnZ6JR9q2PWOzgSL3GH9dTiZCpmp8QNW92T1MU4vXWt6MtdF_n4S4jWozdpEcMp7jw_Nd4AvWyRKhuR8_0U8jm9MM2HSstyVshBV5OWJh-0bsYiP3LMOitkF0Nv8EB0NA1ZmaCQ974_QI_Ly3q">
+</div>
+<div class="max-w-4xl mx-auto px-4 relative z-10 text-center space-y-8">
+<p class="text-heritage-gold uppercase tracking-[0.3em] text-xs font-bold">Global Reach</p>
+<h2 class="text-5xl font-serif text-white italic">Worldwide Shipping Available</h2>
+<p class="text-gray-300 leading-relaxed max-w-2xl mx-auto">
+          Wherever you are in the world, experience the elegance of our handcrafted bridal blouses and sarees, carefully packaged and delivered right to your doorstep.
+        </p>
+<a class="inline-block bg-heritage-red text-white px-10 py-4 text-xs font-bold uppercase tracking-widest hover:bg-red-700 transition-colors" href="https://wa.me/919941922222" target="_blank">
+          Contact on WhatsApp
+        </a>
+</div>
+</section>
+<!-- END: ShippingSection -->
+</main>
+<!-- BEGIN: Footer -->
+<footer class="bg-white py-16 border-t border-heritage-gold/20" id="contact">
+<div class="max-w-7xl mx-auto px-4 text-center">
+<div class="mb-8">
+<a class="flex flex-col items-center" href="#">
+<span class="font-serif text-3xl tracking-[0.2em] text-heritage-maroon font-bold">SARA BRIDAL</span>
+<span class="text-[10px] tracking-[0.4em] text-heritage-gold uppercase">Luxury Bridal Boutique</span>
+</a>
+</div>
+<div class="space-y-4 mb-12">
+<p class="text-heritage-maroon font-bold text-xs tracking-widest uppercase">Contact Us</p>
+<div class="flex flex-col items-center space-y-3 text-sm text-gray-600">
+<a class="hover:text-heritage-gold" href="tel:+919941922222">WhatsApp Orders: <span class="font-semibold">+91 9941922222</span></a>
+<a class="hover:text-heritage-gold" href="https://instagram.com/sarabridal2024">Instagram: <span class="font-semibold">@sarabridal2024</span></a>
+<a class="hover:text-heritage-gold" href="mailto:revisara@gmail.com">Email: <span class="font-semibold">revisara@gmail.com</span></a>
+</div>
+</div>
+<div class="border-t border-heritage-gold/10 pt-8">
+<p class="text-[10px] text-gray-400 tracking-widest uppercase">
+          © 2024 SARA BRIDAL - Threads of Elegance, Stitched with Heart
+        </p>
+</div>
+</div>
+</footer>
+<!-- END: Footer -->
+<!-- BEGIN: FloatingWhatsApp -->
+<div class="fixed bottom-8 right-8 z-[100]">
+<a class="bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform group" href="https://wa.me/919941922222" target="_blank">
+<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.937 3.659 1.432 5.631 1.433h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+<span class="absolute right-full mr-4 bg-white text-heritage-maroon px-4 py-2 rounded shadow-lg text-xs font-bold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none uppercase tracking-widest">Chat with us</span>
+</a>
+</div>
+<!-- END: FloatingWhatsApp -->
+
+
+</body></html>
